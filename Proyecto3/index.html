@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <header>
+       <nav>  
+        <div class="search-btn">
+          <input type="text" placeholder="Search..." id="photo-input" />
+          
+          <select name="order_by" id="order_by">
+            <option value="latest">Latest</option>
+            <option value="relevant">Relevant</option>
+          </select>
+          <select name="color" id="color">
+            <option value="black_and_white">Black and White</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="color">Color</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="green">Green</option>
+            <option value="orange">Orange</option>
+            <option value="red">Red</option>
+          </select>
+          <select name="select_orientation" id="select_orientation">
+            <option value="landscape">Landscape</option>
+            <option value="portrait">Portrait</option>
+            <option value="squarish">Squarish</option>
+          </select>
+          <button type="button" id="buscar_btn">Search</button>
+        </div>
+       </nav>
+    </header>
+    <main>
+      <div class="img-section">
+        
+      </div>
+    </main>
+    <footer>
+      <div class="Pages_btn">
+        <button id="Previos_btn">Previos</button>
+        <button id="Next_btn">Next</button>
+      </div>
+    </footer>
+  </body>
+</html>
+
