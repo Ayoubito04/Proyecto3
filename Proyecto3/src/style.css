@@ -67,6 +67,7 @@ img{
     height: 40%;
     display: block;
     margin:0 auto;
+    object-fit: cover;
   
 
 }
